@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="ToDoApp.js"></script>
   </head>
+  
   <body>
-    <todo-el></todo-el>
+    <div>
+    <label for="newTask">What is there to do?: </label>
+    <input type="text" id="newTask" placeholder="Clean a fridge?" />
+    <button>Add</button>
+    </div>
+    <div class="toDoList">
+      <ul>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+      </ul>
+      <button type="button">Delete All</button>
+    </div>
+    <todo-el checked>todo</todo-el>
   </body>
 </html>
